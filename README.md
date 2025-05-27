@@ -16,7 +16,7 @@ This tool is built using Python and the CustomTkinter library for its interface.
 * **Alphabetical Sorting:** Displays the list of ROMs to be processed in alphabetical order.
 * **Progress Display:** Shows the status of the current operation and overall progress for conversions.
 * **Interruptible Operations:** "Stop Scanning" and "Stop Conversion" buttons allow you to halt lengthy processes gracefully.
-* **Standalone Executable:** Can be packaged into a single `.exe` file for Windows (see Building).
+* **Standalone Executable:** Released as a single `.exe` file for Windows (see Releases).
 
 ## Using the Application
 
