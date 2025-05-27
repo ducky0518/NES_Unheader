@@ -91,5 +91,3 @@ If you want to create your own standalone `.exe` file from the source code:
 * Use this software at your own risk. The author is not responsible for any damage or loss of data.
 
 ---
-
-Feel free to modify this README to better suit your needs, for example, by adding a specific script name, a "License" section if you choose one, or a "Contributing" section if you plan to host it publicly and accept contributions.
