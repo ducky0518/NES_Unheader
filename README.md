@@ -38,47 +38,31 @@ If a pre-built `NES_Unheader_Tool.exe` (or similar name) is provided:
 
 ### 2. Running from Source Code
 
-If you have Python installed, you can run the application directly from its source code:
+This section describes how to run the application directly using Python, without using a pre-built `.exe` file.
 
 **Prerequisites:**
 
-* Python 3.7 or newer.
+* Python 3.7 or newer (Python can be downloaded from [python.org](https://www.python.org/downloads/)).
 * CustomTkinter library.
 
 **Steps:**
 
-1.  **Download/Clone Source:** Get all the Python script files (e.g., `your_script_name.py`).
+1.  **Download/Clone Source Code:** Obtain the Python script file (e.g., `nes_unheader.py`) and any associated files.
 2.  **Install Dependencies:** Open a terminal or command prompt and install CustomTkinter:
     ```bash
     pip install customtkinter
     ```
-3.  **Run the Script:** Navigate to the directory containing the script and run:
+3.  **Run the Script:** Navigate to the directory where you saved the Python script using the terminal/command prompt. Then, run the script using:
     ```bash
     python your_script_name.py
     ```
-    (Replace `your_script_name.py` with the actual name of the Python file, e.g., `nes_unheader.py`).
-4.  Follow steps 3-7 from the "Using the Standalone Executable" section above.
-
-## Building the Executable (from Source)
-
-If you want to create your own standalone `.exe` file from the source code:
-
-1.  **Ensure Prerequisites:**
-    * Python is installed.
-    * All necessary libraries (like `customtkinter`) are installed in your Python environment (`pip install customtkinter`).
-2.  **Install PyInstaller:**
-    ```bash
-    pip install pyinstaller
-    ```
-3.  **Open Command Prompt/Terminal:** Navigate to the directory where your Python script is saved.
-4.  **Run PyInstaller:** Use the following command (replace `your_script_name.py` and optionally `your_icon.ico`):
-    ```bash
-    pyinstaller --onefile --windowed --icon="your_icon.ico" your_script_name.py
-    ```
-    * `--onefile`: Bundles everything into a single executable.
-    * `--windowed`: Prevents a console window from appearing when the GUI runs.
-    * `--icon="your_icon.ico"`: (Optional) Specifies a custom icon for your application. Replace `your_icon.ico` with the path to your icon file.
-5.  **Locate Executable:** After PyInstaller finishes, the executable will be located in a subfolder named `dist`.
+    (Replace `your_script_name.py` with the actual name of the Python file, for example, `nes_unheader_app2.py`).
+4.  **Using the Application Window:** Once the script is running, the application window will appear.
+    * Click the "Browse" button next to "Input ROMs Directory" to choose the folder containing your headered NES ROMs.
+    * Click the "Browse" button next to "Output Directory" to select where the unheadered ROMs will be saved.
+    * When both paths are set, click the "Scan for Headered ROMs" button. You can use the "Stop Scanning" button if needed.
+    * After the scan is complete and ROMs are listed, click the "Convert Selected ROMs" button. You can use the "Stop Conversion" button if needed.
+    * A message will indicate when the process is complete or stopped.
 
 ## Troubleshooting
 
