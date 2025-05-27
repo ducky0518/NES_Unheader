@@ -22,7 +22,7 @@ This tool is built using Python and the CustomTkinter library for its interface.
 
 There are two ways to use this application:
 
-### 1. Using the Standalone Executable (if available)
+### 1. Using the Standalone Executable (for Windows - see Releases)
 
 If a pre-built `NES_Unheader_Tool.exe` (or similar name) is provided:
 
