@@ -56,7 +56,7 @@ If you have Python installed, you can run the application directly from its sour
     ```bash
     python your_script_name.py
     ```
-    (Replace `your_script_name.py` with the actual name of the Python file, e.g., `nes_unheader_app2.py`).
+    (Replace `your_script_name.py` with the actual name of the Python file, e.g., `nes_unheader.py`).
 4.  Follow steps 3-7 from the "Using the Standalone Executable" section above.
 
 ## Building the Executable (from Source)
