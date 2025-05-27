@@ -54,9 +54,8 @@ This section describes how to run the application directly using Python, without
     ```
 3.  **Run the Script:** Navigate to the directory where you saved the Python script using the terminal/command prompt. Then, run the script using:
     ```bash
-    python your_script_name.py
+    python nes_unheader.py
     ```
-    (Replace `your_script_name.py` with the actual name of the Python file, for example, `nes_unheader_app2.py`).
 4.  **Using the Application Window:** Once the script is running, the application window will appear.
     * Click the "Browse" button next to "Input ROMs Directory" to choose the folder containing your headered NES ROMs.
     * Click the "Browse" button next to "Output Directory" to select where the unheadered ROMs will be saved.
