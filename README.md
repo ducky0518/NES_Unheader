@@ -6,6 +6,8 @@ This application provides a user-friendly graphical interface (GUI) to remove th
 
 This tool is built using Python and the CustomTkinter library for its interface.
 
+![nes_unheader screenshot](nes_unheader.png)
+
 ## Features
 
 * **Graphical User Interface:** Easy-to-use interface for selecting directories and managing the conversion process.
