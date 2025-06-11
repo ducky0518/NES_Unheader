@@ -66,7 +66,6 @@ This section describes how to run the application directly using Python, without
 ## Troubleshooting
 
 * **Antivirus False Positives:** Occasionally, antivirus software might flag executables created by PyInstaller as suspicious. This is usually a false positive. If this occurs, you may need to add an exception for the file in your antivirus settings.
-* **Application Fails to Start (from .exe):** If the packaged `.exe` doesn't start or crashes immediately, try building it without the `--windowed` option first (`pyinstaller --onefile your_script_name.py`). Run this version from a command prompt; it may display error messages that can help diagnose the issue (e.g., missing files or unhandled exceptions).
 
 ## Disclaimer
 
