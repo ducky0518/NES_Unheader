@@ -26,8 +26,6 @@ There are two ways to use this application:
 
 ### 1. Using the Standalone Executable (for Windows - see Releases)
 
-If a pre-built `NES_Unheader_Tool.exe` (or similar name) is provided:
-
 1.  Download the executable file.
 2.  Double-click the `.exe` file to run the application. No installation is required.
 3.  **Select Input Directory:** Click the "Browse" button next to "Input ROMs Directory" to choose the folder containing your headered NES ROMs (can be `.nes` files or `.zip` archives containing `.nes` files).
